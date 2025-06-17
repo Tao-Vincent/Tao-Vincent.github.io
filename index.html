@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>VINCENT TAO</h1>
+        <nav>
+            <ul>
+                <li><a href="#projects">Stages</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <img src="pp.png" alt="Photo de profil">
+        <p>Bonjour, je m'appelle Vincent Tao, j'ai 16 ans et je suis en seconde TNE. <br> Passionnée par les métiers du numérique et énergétique, mon objectif est <br> d'apprendre ainsi que de me former tout en vous aidant au quotidien grâce <br> à mes compétences déjà acquises.</p>
+    </section>
+    
+    <section id="projects">
+        <div class="grid-container">
+            <div class="project"><p>Stage d'observation aux Remontés Mécaniques D'Ancelle en 2024</p><img src="Ancelle.gif" alt=""> </div>
+            <div class="project"><p>Stage pratique A l'atelier en 2025</p><img src="images.jpg" alt=""> </div>
+        </div>
+    </section>
+
+    <section id="competences">
+        <div class="grid-container">
+            <div class="skill">Montage PC</div>
+            <div class="skill">HTML/CSS</div>
+            <div class="skill">JAVASCRIPT</div>
+            <div class="skill">Animation 3D</div>
+            <div class="skill">Python</div>
+            <div class="skill">Bash</div>
+            <div class="skill">Batch</div>
+            <div class="skill">Installation Windows</div>
+            <div class="skill">Soudure de carte</div>
+            <div class="skill">Site web</div>
+        </div>
+    </section>
+     
+<section id="contact">
+    <form action="send_mail.php" method="POST">
+        <input type="text" name="name" placeholder="Votre nom" required>
+        <input type="email" name="email" placeholder="Votre email" required>
+        <textarea name="message" placeholder="Votre message" required></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+
+
+    <footer>
+        <p>
+            Numéro : <a href="tel:+3366696017">07 66 69 60 17</a><br>
+            Mail : <a href="mailto:vincent.tao@lpmendesfrance.com">vincent.tao@lpmendesfrance.com</a>
+        </p>
+        <p>&copy; 2025 VINCENT TAO</p>
+    </footer>
+</body>
+</html>
